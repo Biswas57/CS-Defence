@@ -31,7 +31,7 @@ Enter the directions consecutively without spaces. For example, if the path shou
 #### Game Commands
 After setting up the game, you will enter the main game loop where you can input commands to interact with the game:
 
-- `e`: **Enemy player** spawns an enemy at the starting position.
+- `e (no_enemies)`: **Enemy player** spawns an enemy at the starting position.
 - `t (row col)`: **Defensive player** places a new tower on the map. You will be prompted to enter the coordinates where you want to place the tower and ensure you have enough money.
 - `m (no_steps)`: **Enemy player** moves all enemies towards the endpoint. Enemies move along the defined path.
 - `u (row col)`: **Defensive player** upgrades a tower to increase its effectiveness. You will be prompted to enter the coordinates of the tower you want to upgrade.
