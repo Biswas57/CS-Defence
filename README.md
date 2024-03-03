@@ -22,15 +22,15 @@ End Point: The coordinates (row and column) where enemies will aim to reach.
 #### Game Commands
 After setting up the game, you will enter the main game loop where you can input commands to interact with the game:
 
-e: Spawn an enemy at the starting position.\n
-t: Place a new tower on the map. You will be prompted to enter the coordinates where you want to place the tower and ensure you have enough money.\n
-m: Move all enemies towards the end point. Enemies move along the path you've defined.\n
-u: Upgrade a tower to increase its effectiveness. You will be prompted to enter the coordinates of the tower you want to upgrade.\n
-a: Attack enemies within tower range. Towers automatically attack enemies, but you can use this command to simulate tower attacks.\n
-r: Cause rain to alter the terrain and affect towers. This can change grass tiles to water.\n
-f: Flood the terrain, affecting the path and towers. This can spread water further, affecting the path's navigability for enemies.\n
-c: Create a teleporter between two points on the map. You will be prompted to enter the coordinates for both points of the teleporter.\n
-?: Show help message with these commands.\n
+- `e`: Spawn an enemy at the starting position.
+- `t`: Place a new tower on the map. You will be prompted to enter the coordinates where you want to place the tower and ensure you have enough money.
+- `m`: Move all enemies towards the end point. Enemies move along the path you've defined.
+- `u`: Upgrade a tower to increase its effectiveness. You will be prompted to enter the coordinates of the tower you want to upgrade.
+- `a`: Attack enemies within tower range. Towers automatically attack enemies, but you can use this command to simulate tower attacks.
+- `r`: Cause rain to alter the terrain and affect towers. This can change grass tiles to water.
+- `f`: Flood the terrain, affecting the path and towers. This can spread water further, affecting the path's navigability for enemies.
+- `c`: Create a teleporter between two points on the map. You will be prompted to enter the coordinates for both points of the teleporter.
+- `?`: Show help message with these commands.
 
 
 #### Playing the Game
@@ -45,4 +45,3 @@ Upgrade Towers: As you earn more money from defeating enemies, consider upgradin
 Utilize the Environment: Use rain and flood commands to modify the terrain, potentially slowing down enemies or forcing them into more advantageous positions for your towers.
 
 Teleporters: Strategically place teleporters to redirect enemies, potentially leading them into prolonged paths or more heavily defended areas.
-
