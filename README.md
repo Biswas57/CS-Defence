@@ -32,13 +32,13 @@ Enter the directions consecutively without spaces. For example, if the path shou
 After setting up the game, you will enter the main game loop where you can input commands to interact with the game:
 
 - `e`: **Enemy player** spawns an enemy at the starting position.
-- `t (row col)`: Place a new tower on the map. You will be prompted to enter the coordinates where you want to place the tower and ensure you have enough money.
-- `m (no_steps)`: Move all enemies towards the end point. Enemies move along the path you've defined.
-- `u (row col)`: Upgrade a tower to increase its effectiveness. You will be prompted to enter the coordinates of the tower you want to upgrade.
-- `a (no_attacks)`: Attack enemies within tower range. Towers automatically attack enemies, but you can use this command to simulate tower attacks.
-- `r (row col row_offset col_offset)`: Cause rain to alter the terrain and affect towers. This can change grass tiles to water.
-- `f (no_times)`: Flood the terrain, affecting the path and towers. This can spread water further, affecting the path's navigability for enemies.
-- `c (row col dest_row dest_col)`: Create a teleporter between two points on the map. You will be prompted to enter the coordinates for both points of the teleporter.
+- `t (row col)`: **Defensive player** places a new tower on the map. You will be prompted to enter the coordinates where you want to place the tower and ensure you have enough money.
+- `m (no_steps)`: **Enemy player** moves all enemies towards the endpoint. Enemies move along the defined path.
+- `u (row col)`: **Defensive player** upgrades a tower to increase its effectiveness. You will be prompted to enter the coordinates of the tower you want to upgrade.
+- `a (no_attacks)`: **Defensive player** attacks enemies within tower range. Towers automatically attack enemies, but you can use this command to simulate tower attacks.
+- `r (row col row_offset col_offset)`: **Enemy player** can cause rain to alter the terrain and affect towers. This can change grass tiles to water.
+- `f (no_times)`: **Both players** can flood the terrain, affecting the path and towers. This can spread water further, affecting the path's navigability for enemies.
+- `c (row col dest_row dest_col)`: **Enemy player** creates a teleporter between two points on the map. You will be prompted to enter the coordinates for both points of the teleporter.
 - `?`: Show help message with these commands.
 
 
